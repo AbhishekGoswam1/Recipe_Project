@@ -93,7 +93,7 @@ body{
 
 .nav h1{
     font-size: 35px;
-    margin-left: 10px;
+    margin-left: 6px;
 }
 
 .img-container{
@@ -107,6 +107,7 @@ body{
     border-radius: 10px;
     object-fit: cover;
     height: 100%;
+    width: 100%;
     display: block;
 }
 
@@ -116,7 +117,7 @@ body{
     margin: 20px 0;
 }
 
-.upper-section .lists{
+.lists{
     margin-left: 30px;
 }
 
