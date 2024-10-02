@@ -33,10 +33,10 @@ body{
     background-color: #fb7115;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
-    opacity: 1;
     margin: 20px;
-    min-width: 200px;
-    max-width: 200px;
+    /* min-width: 200px;
+    max-width: 200px; */
+    width: 200px;
     overflow: hidden; 
     display: flex;  
     flex-direction: column;
@@ -160,6 +160,7 @@ ul li{
 } */
 
 @media screen and (max-width: 500px){
+
     .nav{
         flex-direction: column;
         align-items: center;
@@ -193,9 +194,13 @@ ul li{
         align-items: center;
     }
 
+    .lists{
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
     .lists h2{
         font-size: 24px;
-        margin-top: 10px;
     }
 
     ul li{
