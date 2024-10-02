@@ -148,3 +148,13 @@ ul li{
 .instructions li{
     list-style: decimal inside;
 }
+
+footer{
+    background-color: #fb7115;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
