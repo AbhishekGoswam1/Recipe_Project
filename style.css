@@ -6,7 +6,8 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: #969696;
+    background-color: #f1f1f1;
+    color: rgb(0, 0, 0);
 }
 
 .items{
@@ -15,18 +16,24 @@ body{
     justify-content: center;
 }
 
-h1{
+.container h1{
     font-size: 40px;
     text-align: center;
     margin: 20px;
     font-weight: 800;
     text-decoration: underline;
+    /* text-decoration-color: #DF6310; */
+}
+
+.highlight{
+    color: #fb7115;
 }
 
 .card{
-    background-color: #fff;
+    background-color: #fb7115;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    opacity: 1;
     margin: 20px;
     min-width: 200px;
     max-width: 200px;
@@ -41,25 +48,102 @@ h1{
     object-fit: cover;
 }
 
-
 .card:hover{
     transform: scale(1.05);
-    transition: 0.5s;
+    transition: 0.2s;
 }   
 
 .card a{
-    color: #000000;
+    color: #ffffff;
     font-family: inherit;
     font-weight: 700;
     text-decoration: none;
     text-align: center;
     padding: 10px 0;
-}   
+}  
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    background-color: #fb7115;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+.nav a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.main{
+    height: 100vh;
+    padding: 20px 0 0 50px;
+}
+
+.nav h1{
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.img-container{
+    height: 450px;
+    min-width: 450px;
+    overflow: hidden;
+}
 
 .image{
     display: inline;
     border-radius: 10px;
-    max-width: 250px;
+    object-fit: cover;
+    height: 100%;
     display: block;
-    margin: 0 auto;
+}
+
+.upper-section{
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0;
+}
+
+.upper-section .lists{
+    margin-left: 30px;
+}
+
+hr{
+    border: 2px solid #fb7115;
+    margin: 3px 0 10px 0;
+    width: 100px;
+}
+
+.lists h2{
+    font-size: 28px;
+    color: #000000;
+    /* margin-bottom: 10px; */
+}
+
+ul li{
+    list-style: inside;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.instructions h2{
+    margin-top: 20px;
+    margin-bottom: -4px;
+}
+
+.instructions li{
+    list-style: decimal inside;
 }
