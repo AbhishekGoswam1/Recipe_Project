@@ -151,15 +151,26 @@ ul li{
     list-style: decimal inside;
 }
 
-/* footer{
+footer{
     background-color: #fb7115;
     color: #ffffff;
-    text-align: center;
+    /* text-align: center; */
     padding: 10px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
-} */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-button {
+    display: inline-block;
+    padding: 0 12px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+}
 
 @media screen and (max-width: 500px){
 
