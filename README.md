@@ -24,13 +24,3 @@ No installation is required. Simply open the website on your mobile or laptop.
 2. Browse through the available recipes.
 3. Select a recipe to view its ingredients and preparation steps.
 4. Follow the steps to prepare your food.
-
-## Contributing
-
-There are no specific guidelines for contributing to this project.
-
-## License
-
-This project currently does not have a license specified.
-
-Feel free to update the LICENSE section with the appropriate license information when available.
